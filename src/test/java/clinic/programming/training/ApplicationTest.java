@@ -15,9 +15,8 @@ public class ApplicationTest {
     
     
     @Test
-    @Ignore
     public void testWordCountString() {
-        int count = app.countWords("this is sssssa test");
+        int count = app.countWords("this is a test");
         assertTrue(count == 4);
     }
 
